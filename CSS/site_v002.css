@@ -81,6 +81,14 @@ ul.nav-list {
   padding-left: 10px;
 }
 
+/* formatting for code blocks */
+/*pre code {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding: 20px;
+}*/
+
 /* CSS for collapsible menu groups */
 .menu-group-input { /* Hides checkbox */
     position: absolute;
