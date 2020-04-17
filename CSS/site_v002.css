@@ -18,7 +18,7 @@
     grid-area: footer;
 }
 
-/* The default layout is a single column for small devices. */
+/* 1 column layout for small devices. */
 .wrapper {
     display: grid;
     grid-gap: 20px;
@@ -80,14 +80,74 @@ ul.nav-list {
   margin-left: 0;
   padding-left: 10px;
 }
-
-/* formatting for code blocks */
-/*pre code {
-  background-color: #eee;
-  border: 1px solid #999;
+section {
+  padding-left: 0px;
+}
+h1 {
   display: block;
-  padding: 20px;
-}*/
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: normal;  
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: normal;
+  text-decoration: underline;
+}
+h3 {
+  display: block;
+  font-size: 1.16em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: normal;
+  text-decoration: underline; 
+}
+h4 {
+  display: block;
+  font-size: 1em;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: normal;
+  text-decoration: underline;
+}
+h5 {
+  display: block;
+  font-size: .83em;
+  margin-top: 1.67em;
+  margin-bottom: 1.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+}
+h6 {
+  display: block;
+  font-size: .67em;
+  margin-top: 2.33em;
+  margin-bottom: 2.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bolder;
+  font-style: italic;
+  text-decoration: underline;
+}
+.intro-text {
+  position: relative;
+  right: 20px;
+}
 
 /* CSS for collapsible menu groups */
 .menu-group-input { /* Hides checkbox */
