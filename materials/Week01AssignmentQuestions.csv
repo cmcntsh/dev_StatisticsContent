@@ -3,11 +3,21 @@ TF,title02,,Question for true false,TRUE,,,,,,,,,,,general feedback,correct feed
 FB,title03,,Question for fill in the blank,,I'm not sure what goes here.,I'm not sure what goes in here either.,,,,,,,,,general feedback,correct feedback,incorrect feedback,,,,,,,,,,,,,,,,
 MR,title04,,Question for multiple answers,"1,2",correct 1,correct 2,incorrect 1,incorrect 2,,,,,,,general feedback,correct feedback,incorrect feedback,,,,,,,,,,,,,,,,
 ES,title06,,Question for essay question,,I'm not sure what goes here.,,,,,,,,,,general feedback,correct feedback,incorrect feedback,,,,,,,,,,,,,,,,
-MR,wAss14001,,What steps of null hypothesis significance testing (NHST) should be completed before conducting statistical tests?,"1,2,3,4",Decide upon research questions and research hypotheses.,"Determine appropriate data to collect. (variables, level of measurement)","Determine appropriate statistical analyses. (probability distribution, test statistic)",Collect data.,State the null and alternative hypotheses.,Set the criteria for rejection.,Calculate the test statistic.,Draw conclusion about the null hypothesis.,Report results.,,,,,,,,,,,,,,,,,,,,
-MR,wAss14002,,What level of measurement is the outcome variable in binary logistic regression?,1,Dichotomous nominal,ordinal,interval,ratio,,,,,,,,,,,,,,,,,,,,,,,,,
-MR,wAss14003,,What level of measurement is a predictor variable in binary logistic regression?,"1,2,3,4",nominal,ordinal,interval,ratio,,,,,,,,,,,,,,,,,,,,,,,,,
-MR,wAss14007,,What steps can be taken to check for missing data?,"1,2,3",visual inspection of the data set,frequencies and percents for categorical variables,means and standard deviations for continuous variables,frequencies and percents for continuous variables,means and standard deviation for categorical variables,,,,,,,,,,,,,,,,,,,,,,,,
-MR,wAss14008,,What steps can be taken to check for outliers?,"1,2,3,4",histograms,boxplots,z-scores,Mahalanobis distance,means and standard deviations,frequencies and percents,no outliers were noted in our data set,outliers were noted in our data set,,,,,,,,,,,,,,,,,,,,,
-MC,wAss14013,,What is the criteria for rejection?,2,0.1,0.05,0.01,,,,,,,,,,,,,,,,,,,,,,,,,,
-ES,wAss14018,,What did you like/dislike about this assignment?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ES,wAss14019,,What would you change about this assignment to make it better for future students?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+FB,Assign01001,1,This is a placeholder question to keep the numbers aligned with the paper copy. How do you feel about it?,"1,2",I love free points!,I wish this were harder!,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ES,Assign01002,1,Install R on your computer. (See computer videos.) Describe any difficulties.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ES,Assign01003,1,Install RStudio on your computer. (See computer videos.) Describe any difficulties.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ES,Assign01004,1,"Click on the .Rmd file in RStudio to open the R notebook. Read through the file. Try running the code block on line 10. Add a new code block after line 14 and enter the code View(cars). Set the eval=FALSE for the new code block. The code should look like this:
+
+```{r eval=FALSE}
+View(cars)
+```
+
+Run the code block. Describe any difficulties you had.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ES,Assign01006,1,After you finished reading through the .Rmd file. Knit the file to HTML and save the HTML file. You will turn the file in as part of your assignment. Describe any difficulties. If you encounter errors while creating the HTML file and can’t figure out how to fix them. You can paste the text of the .Rmd file with the output into a Word or pdf file and turn in that.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ES,Assign01007,1,Install Jamovi on your computer. (See computer videos.) Describe any difficulties.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ES,Assign01008,1,Add the R datasets module to Jamovi. Open the cars dataset in Jamovi. Describe any difficulties.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MC,Assign01009,3,How can you set the level of measurement of the variables in Jamovi? Fix the level of measurement for the variables in the cars dataset in Jamovi to match the answer you gave above.,1,Jamovi – Data – Click on column heading – select the correct level of measurement.,Jamovi doesn't allow you to specify the level of measurement.,Jamovi – Analyze – Click on column heading – select the correct level of measurement.,,,,,,,,,,,,,,,,,,,,,,,,,,
+ES,Assign01010,1,Save the Jamovi file (.omv). You will turn it in as part of your assignment. Describe any difficulties.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MC,Assign01011,3,"When conducting statistical analyses, we should always keep in mind the larger context in which we are working with data. What are steps in the research process which are completed before we analyze data?","1,2,3,4",Generate research questions,Generate research hypotheses,"Determine study design, variables, levels of measurement",Collect data,,,,,,,"Field 1.4-1.6, LSWJ 2.2","Field 1.4-1.6, LSWJ 2.2","Field 1.4-1.6, LSWJ 2.2",,,,,,,,,,,,,,,,
+ES,Assign01012,1,What did you like/dislike about this assignment?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ES,Assign01013,1,How would you change this assignment to make it better for future students?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
