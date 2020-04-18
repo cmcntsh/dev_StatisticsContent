@@ -20,7 +20,7 @@ document.write('  <li>');
 document.write('    <input class="menu-group-input" type="checkbox" name ="topics" id="topics">');
 document.write('    <label for="topics">Other Topics +</label>');
 document.write('    <ul class="menu-group-list nav-list">');
-document.write('      <li><a href="#0">Topic 1 (Empty)</a></li>');
+document.write('      <li><a href="N6075_sp21_cartoons.html">Comics</a></li>');
 document.write('      <li>');
 document.write('        <input class="menu-group-input" type="checkbox" name ="submenu1" id="submenu1">');
 document.write('        <label for="submenu1">Empty Submenu +</label>');
