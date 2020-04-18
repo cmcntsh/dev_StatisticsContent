@@ -148,6 +148,14 @@ h6 {
   position: relative;
   right: 20px;
 }
+table {
+  table-layout: auto;
+  padding: 20px;
+}
+th, td {
+  padding: 5px;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
 
 /* CSS for collapsible menu groups */
 .menu-group-input { /* Hides checkbox */
